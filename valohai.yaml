@@ -3,6 +3,7 @@
     name: preprocess-dataset
     image: python:3.9
     command:
+      - echo 'hello'
       - pip install numpy valohai-utils
       - python ./preprocess_dataset.py
     inputs:
