@@ -9,6 +9,8 @@
     inputs:
       - name: dataset
         default: https://valohaidemo.blob.core.windows.net/mnist/mnist.npz
+      - name: dataset2
+        default: https://valohaidemo.blob.core.windows.net/mnist/mnist.npz
 
 - step:
     name: train-model
