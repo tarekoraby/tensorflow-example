@@ -160,4 +160,3 @@ Compare predictions requires two or more batch inference results and optionally 
 python compare_predictions.py --predictions .valohai/outputs/{local_run_id}/batch-inference/predictions-{suffix}.json .valohai/outputs/{local_run_id}/batch-inference/predictions-{suffix}.json
 ```
 
-
